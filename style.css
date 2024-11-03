@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-image: url('https://cdn.britannica.com/09/188709-050-03BF34CB/Michael-Jordan.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: 0;
+}
+
+.left-bar {
+    width: 50px;
+    background-color: #CE1141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.left-bar img {
+    width: 60px;
+    height: auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    flex: 1;
+}
+
+.card-top {
+    text-align: center;
+    font-size: 16px;
+    color: #dcdcdc;
+    font-weight: bold;
+}
+
+.card-top h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.year {
+    font-size: 10px;
+    background: #d62828;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.card-bottom {
+    text-align: center;
+}
+
+.card-bottom h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-bottom p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 20px;
+    width: 100%;
+}
+.lebron{
+    background-image: url('https://w0.peakpx.com/wallpaper/617/132/HD-wallpaper-lebron-james-basketball-nba-slam-dunk.jpg');
+}
+.bar-lebron, .year-lebron{
+    background-color: black;
+}
+.bar-lebron img{
+    width: 40px;
+}
